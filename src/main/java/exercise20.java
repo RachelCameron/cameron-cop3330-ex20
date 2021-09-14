@@ -17,7 +17,7 @@ public class exercise20 {
         double wiTax = .055;
         double ilTax = .08;
         if(state.equalsIgnoreCase("WI")) {
-            if(county.equalsIgnoreCase("EauClaire")){
+            if(county.equalsIgnoreCase("Eau Claire")){
                 wiTax = wiTax + .05;
                 System.out.printf("The subtotal is $%.2f\nThe tax is $%.2f\nThe total is $%.2f\n", orderamount, orderamount * wiTax, orderamount + (orderamount * wiTax));
             }
